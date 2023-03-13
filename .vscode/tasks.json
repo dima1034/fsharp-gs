@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "msbuild",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"label": "Build: fsharp-exp-23.fsproj",
+			"detail": "Build the fsharp-exp-23.fsproj project using dotnet build"
+		}
+	]
+}

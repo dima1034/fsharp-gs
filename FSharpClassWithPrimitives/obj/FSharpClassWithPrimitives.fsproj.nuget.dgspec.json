@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/FSharpClassWithPrimitives/FSharpClassWithPrimitives.fsproj": {}
+  },
+  "projects": {
+    "/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/FSharpClassWithPrimitives/FSharpClassWithPrimitives.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/FSharpClassWithPrimitives/FSharpClassWithPrimitives.fsproj",
+        "projectName": "FSharpClassWithPrimitives",
+        "projectPath": "/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/FSharpClassWithPrimitives/FSharpClassWithPrimitives.fsproj",
+        "packagesPath": "/Users/dima/.nuget/packages/",
+        "outputPath": "/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/FSharpClassWithPrimitives/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dima/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.101/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/dima1034/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.12, 6.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.12, 6.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // debug f#
+    {
+      "name": "Debug F#",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "Build: fsharp-exp-23.fsproj",
+      "program": "${workspaceFolder}/bin/Debug/net7.0/fsharp-exp-23.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+
+  ]
+}

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Dll</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>fsharp_exp_23</RootNamespace>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+      <Content Include="Dockerfile" />
+      <None Include="build.fsx" />
+      <None Include="script.fsx" />
+      <Content Include="fake.sh" />
+    </ItemGroup>
+
+</Project>

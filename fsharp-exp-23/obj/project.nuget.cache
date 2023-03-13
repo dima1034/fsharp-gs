@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "87UX9XpPUTl+8GtaN1CFCN+hDD0wVwKKcK92VZVchEgLmRSyiTTjDQd9g39Ru9KGSjUJKFLcZDD+dQFNHKuCAA==",
+  "success": true,
+  "projectFilePath": "/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/fsharp-exp-23.fsproj",
+  "expectedPackageFiles": [
+    "/Users/dima/.nuget/packages/fsharp.core/7.0.0/fsharp.core.7.0.0.nupkg.sha512",
+    "/Users/dima/.nuget/packages/microsoft.netcore.app.ref/6.0.12/microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "/Users/dima/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.12/microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,41 @@
+
+#if FAKE
+#r "paket:
+nuget Fake.DotNet.Cli
+nuget Fake.IO.FileSystem
+nuget Fake.Core.Target prerelease"
+#endif
+
+#load ".fake/build.fsx/intellisense.fsx"
+
+open Fake.Core
+open Fake.DotNet
+open Fake.IO
+open Fake.IO.FileSystemOperators
+open Fake.IO.Globbing.Operators
+open Fake.Core.TargetOperators
+
+Target.initEnvironment ()
+
+let install = lazy DotNet.install DotNet.Versions.FromGlobalJson
+
+let inline withWorkDir wd =
+    DotNet.Options.lift install.Value
+    >> DotNet.Options.withWorkingDirectory wd
+
+let inline dotnetSimple arg = DotNet.Options.lift install.Value arg
+
+Target.create "Clean" (fun _ -> !! "**/bin" ++ "**/obj" |> Shell.cleanDirs)
+
+let exec arg = DotNet.exec dotnetSimple "build" arg |> ignore
+
+Target.create "Build" (fun _ -> DotNet.exec dotnetSimple "build" "fsharp-exp-23.fsproj" |> ignore)
+
+Target.create "All" ignore
+
+"Clean" ==> "Build" ==> "All"
+
+Target.runOrDefault "All"
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx
+--define:DOTNETCORE
+--define:FAKE

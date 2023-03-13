@@ -1,0 +1,9 @@
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx (35,55)-(35,59): Error FS0039: The value or constructor 'unit' is not defined.
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx (39,32)-(39,87): Error FS0001: This expression was expected to have type
+    'unit'    
+but here has type
+    'ProcessResult'    
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx (39,32)-(39,87): Error FS0001: This expression was expected to have type
+    'unit'    
+but here has type
+    'ProcessResult'    

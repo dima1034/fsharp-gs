@@ -1,0 +1,12 @@
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx (36,58)-(36,90): Error FS0001: Type mismatch. Expecting a
+    'string -> unit'    
+but given a
+    'string -> ProcessResult'    
+The type 'unit' does not match the type 'ProcessResult'
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx (36,58)-(36,90): Error FS0001: Type mismatch. Expecting a
+    'string -> unit'    
+but given a
+    'string -> ProcessResult'    
+The type 'unit' does not match the type 'ProcessResult'
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx (36,95)-(36,99): Error FS0039: The value or constructor 'unit' is not defined.
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/build.fsx (36,104)-(36,108): Error FS0039: The value or constructor 'unit' is not defined.

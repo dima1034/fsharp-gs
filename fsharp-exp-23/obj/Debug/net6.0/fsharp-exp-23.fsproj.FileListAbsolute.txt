@@ -1,0 +1,9 @@
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/bin/Debug/net6.0/fsharp-exp-23.deps.json
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/bin/Debug/net6.0/fsharp-exp-23.dll
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/bin/Debug/net6.0/fsharp-exp-23.pdb
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/obj/Debug/net6.0/fsharp-exp-23.fsproj.AssemblyReference.cache
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/obj/Debug/net6.0/fsharp-exp-23.AssemblyInfoInputs.cache
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/obj/Debug/net6.0/fsharp-exp-23.AssemblyInfo.fs
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/obj/Debug/net6.0/fsharp-exp-23.fsproj.CoreCompileInputs.cache
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/obj/Debug/net6.0/fsharp-exp-23.dll
+/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/fsharp-exp-23/obj/Debug/net6.0/fsharp-exp-23.pdb

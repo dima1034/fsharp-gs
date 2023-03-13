@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MT/rF+cALTDPIxbYv47pn0xVwmcAHhjF9mCwkCkmzhtWUNfvUAmXROo6CpmC8LOHhUJlNb5cRPKJcsXXDs8IqQ==",
+  "success": true,
+  "projectFilePath": "/Users/dima/Development/expiriments/fsharp/fsharp-exp-23/FSharpClassWithPrimitives/FSharpClassWithPrimitives.fsproj",
+  "expectedPackageFiles": [
+    "/Users/dima/.nuget/packages/fsharp.core/7.0.0/fsharp.core.7.0.0.nupkg.sha512",
+    "/Users/dima/.nuget/packages/microsoft.netcore.app.ref/6.0.12/microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "/Users/dima/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.12/microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
